@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image/background_image.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-right, .nav-avatar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left:5px;
+    
+}
+
+.nav-left img {
+    max-width: 100px;
+    max-height: 68px;
+}
+
+.nav-main {
+    list-style: none;
+    display: flex;
+}
+
+.nav-main li {
+    padding-right: 20px;
+}
+
+.nav-main li a {
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+}
+
+.nav-main li a:hover {
+    color: red;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.nav-search input {
+    height: 30px;
+    border: 1px solid;
+    padding: 0 15px;
+    vertical-align: middle; 
+}
+
+.nav-search button {
+    width: 30px;
+    height: 30px;
+    border: none; 
+    background-color: white;
+    background-image: url(image/123.png); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin-left: 5px;
+}
+
+.nav-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 5px;
+    overflow: hidden; 
+}
+
+.nav-avatar img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.nav-avatar1{
+    position:absolute;
+    left:5%;
+    top:100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.nav-avatar1 img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.Nelson{
+    position:absolute;
+    left:9%;
+    color:white;
+    top:107px;
+}
+.jesimage{
+     position:absolute;
+    left:9%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    bottom:50px;
+    width: 30%; 
+    height: 30%;
+    top:150px;
+}
+.love{
+    position:absolute;
+    left:9%;
+    color:white;
+    top:380px;
+}
+.thumb{
+    position:absolute;
+    left:5.5%;
+    bottom:170px;
+    width: 150px; 
+    height:200px;
+    
+}
+.thumb img{
+   position:absolute;
+    left:10%;
+    bottom:50px;
+    width: 100%; 
+    height: 100%;
+}
+.content-box {
+    position:absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    border: px solid #ccc;
+    border-radius: px;
+    left:11%;
+    bottom:240px;
+}
+
+.comment-section {
+    flex: 1;
+    margin-right: 
+}
+
+.comment-section textarea {
+    width: 80%;
+    height: 37px; 
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; 
+}
+
+.comment-section .comment-button {
+    display: block;
+    width: 30%;
+    padding: 0px 15px;
+    margin-top: 0px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.view-comments {
+    position:absolute;
+    left:35%;
+    bottom:25px;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.bookmark-section {
+    position:absolute;
+     width: 60%; 
+    height: 71%; 
+    right:5.5%;
+    top:-1px;
+    
+}
+.bookmark-section img{
+    width: 50%; 
+    height: 87%; 
+    position:absolute;
+    right:4%;
+    top:15px;
+
+}
+
+.bookmark-section .bookmark-button {
+   width:30%;
+    padding: 0px 0px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+    height:50px;
+     width: 50%; 
+    height: 50%; 
+    object-fit: cer; 
+
+}
+.nav-avatar2{
+    position:absolute;
+    left:5%;
+    top:465px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.nav-avatar2 img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.jessica{
+    position:absolute;
+    left:9%;
+    color:white;
+    top:470px;
+}
+.nelsonimage{
+     position:absolute;
+    left:9%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    bottom:50px;
+    width: 30%; 
+    height: 30%;
+    top:500px;
+}
+.carousel h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+}
+.carousel::after {
+    content: "Capturing The Spirit of Hong Kong Movie";
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    color: white;
+    white-space: normal;
+    max-width:140px;
+}
+
+.footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0; 
+}

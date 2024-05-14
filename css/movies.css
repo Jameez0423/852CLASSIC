@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image/background_image.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-right, .nav-avatar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left:5px;
+}
+
+.nav-left img {
+    max-width: 100px;
+    max-height: 68px;
+}
+
+.nav-main {
+    list-style: none;
+    display: flex;
+}
+
+.nav-main li {
+    padding-right: 20px;
+}
+
+.nav-main li a {
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+}
+
+.nav-main li a:hover {
+    color: red;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.nav-search input {
+    height: 30px;
+    border: 1px solid;
+    padding: 0 15px;
+    vertical-align: middle; 
+}
+
+.nav-search button {
+    width: 30px;
+    height: 30px;
+    border: none; 
+    background-color: white;
+    background-image: url(image/123.png); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin-left: 5px;
+}
+
+.nav-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 5px;
+    overflow: hidden; 
+}
+
+.nav-avatar img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 655px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel h2 {
+    position: absolute;
+    top: 35px;
+    left: 51px; 
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.video-container {
+    position: absolute;
+    top: 100px; 
+    left: 328px; 
+    transform: translateX(-50%); 
+}
+
+.video-container iframe {
+    width: 400px; 
+    height: 50px;
+    left:51px;
+}
+.movie-introduce {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    right: 35.8%; 
+    margin-left: 5px;
+    padding-right: 5px;
+     white-space: nowrap; 
+    top:55px
+}
+.movie-year{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    right:30%; 
+     white-space: nowrap; 
+    top:150px;
+    text-align:right;
+}
+.movie-time{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    right:20.5%; 
+    white-space: nowrap; 
+    text-align:right;
+    top:170px;
+}
+.movie-intro{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    right:14.5%;
+     white-space:pre-wrap; 
+    top:180px;
+    text-align:justify;
+    margin-left: 5px;
+    padding-right: 5px;
+    max-width: 300px;
+}
+.movie-director{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    right:23.7%; 
+     white-space:pre-wrap;
+    top:320px;
+    text-align:justify;
+    margin-left: 5px;
+    padding-right: 5px;
+    max-width: 159px;
+}
+.movie-actor{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    right:23.7%; 
+     white-space:nowrap; 
+    top:465px;
+    text-align:justify;
+    margin-left: 5px;
+    padding-right: 5px;
+    max-width: 159px;
+}
+.content-box {
+    position:absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: px solid #ccc;
+    border-radius: 8px;
+    right:5.8%;
+    bottom:50px;
+}
+
+.comment-section {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.comment-section textarea {
+    width: 80%;
+    height: 50px; 
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; 
+}
+
+.comment-section .comment-button {
+    display: block;
+    width: 80%;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-comments {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.bookmark-section {
+    position:absolute;
+     width: 60%; 
+    height: 71%; 
+    right:6.5%;
+    top:0px;
+    
+}
+.bookmark-section img{
+    width: 50%; 
+    height: 87%; 
+    position:absolute;
+    right:4%;
+    top:8px;
+
+}
+
+.bookmark-section .bookmark-button {
+   width:30%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height:50px;
+     width: 50%; 
+    height: 50%; 
+    object-fit: cover; 
+
+}
+.trailer-gallery {
+    bottom:190px;
+    position:absolute;
+    color:white;
+    margin-top: 20px;
+    background-color: transparent;
+    left:51px;
+    
+}
+.photo-box {
+    left:51px;
+    position: absolute;
+    bottom:-30px;
+    
+}
+.photo-box img {
+    width: 50%; 
+    border-radius: px;
+}
+.photo-box1 {
+    left:325px;
+    position: absolute;
+    bottom:-30px;
+}
+.photo-box1 img{
+    width: 50%; 
+    border-radius: px;
+}
+.photo-box2 {
+    left:605px;
+    position: absolute;
+    bottom:-30px;
+}
+.photo-box2 img{
+    width: 56%; 
+    border-radius: px;
+}
+
+.photo-box.third {
+}
+.carousel:after {
+     content: "Capturing The Spirit of Hong Kong Movie";
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    color: white;
+    white-space: normal;
+    max-width:140px;
+}
+
+.footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0; 
+}

@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image/background_image.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-right, .nav-avatar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left:5px;
+}
+
+.nav-left img {
+    max-width: 100px;
+    max-height: 68px;
+}
+
+.nav-main {
+    list-style: none;
+    display: flex;
+}
+
+.nav-main li {
+    padding-right: 20px;
+}
+
+.nav-main li a {
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+}
+
+.nav-main li a:hover {
+    color: red;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.nav-search input {
+    height: 30px;
+    border: 1px solid;
+    padding: 0 15px;
+    vertical-align: middle; 
+}
+
+.nav-search button {
+    width: 30px;
+    height: 30px;
+    border: none; 
+    background-color: white;
+    background-image: url(image/123.png); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin-left: 5px;
+}
+
+.nav-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 5px;
+    overflow: hidden; 
+}
+
+.nav-avatar img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.Day {
+    color: white;
+    position:absolute;
+    left:1%;
+    top:100px;
+}
+.nav-avatar1{
+    position:absolute;
+    left:5%;
+    top:150px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.nav-avatar1 img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.Nelson{
+    position:absolute;
+    left:9%;
+    color:white;
+    top:168px;
+}
+.nav-avatar2{
+    position:absolute;
+    left:5%;
+    top:220px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.nav-avatar2 img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.Emily{
+    position:absolute;
+    left:9%;
+    color:white;
+    top:238px;
+}
+.Day1{
+    color: white;
+    position:absolute;
+    left:1%;
+    top:310px;
+}
+.nav-avatar3{
+    position:absolute;
+    left:5%;
+    top:350px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.nav-avatar3 img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.Angela{
+    position:absolute;
+    left:9%;
+    color:white;
+    top:368px;
+}
+.nav-avatar4{
+    position:absolute;
+    left:5%;
+    top:420px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.nav-avatar4 img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.Your{
+    position:absolute;
+    left:9%;
+    color:white;
+    top:438px;
+}
+.nav-avatar5{
+    position:absolute;
+    left:5%;
+    top:490px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.nav-avatar5 img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.Friend{
+    position:absolute;
+    left:9%;
+    color:white;
+    top:508px;
+}
+.carousel::after {
+    content: "Capturing The Spirit of Hong Kong Movie";
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    color: white;
+    white-space: normal;
+    max-width:140px;
+}
+
+.footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}

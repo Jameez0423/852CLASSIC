@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image/background_image.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-right, .nav-avatar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left:5px;
+}
+
+.nav-left img {
+    max-width: 100px;
+    max-height: 68px;
+}
+
+.nav-main {
+    list-style: none;
+    display: flex;
+}
+
+.nav-main li {
+    padding-right: 20px;
+}
+
+.nav-main li a {
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+}
+
+.nav-main li a:hover {
+    color: red;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.nav-search input {
+    height: 30px;
+    border: 1px solid;
+    padding: 0 15px;
+    vertical-align: middle; 
+}
+
+.nav-search button {
+    width: 30px;
+    height: 30px;
+    border: none; 
+    background-color: white;
+    background-image: url(image/123.png); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin-left: 5px;
+}
+
+.nav-avatar {
+  width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 5px;
+    overflow: hidden; 
+}
+
+.nav-avatar img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.video-container {
+    position: absolute;
+    top: 100px; 
+    left: 20%; 
+    transform: translateX(-50%); 
+}
+
+.video-container iframe {
+    width: 400px; 
+    height: 50px; 
+}
+
+.trailer-button {
+    position: absolute;
+    bottom: 400px; 
+    left: 45%; 
+    transform: translateX(-50%); 
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.trailer-button:hover {
+    color: red;
+}
+
+.carousel::after {
+    content: "Capturing The Spirit of Hong Kong Movie";
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    color: white;
+    white-space: normal;
+    max-width:140px;
+}
+
+.footer {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.container {
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width:20%;
+    left:40%;
+    bottom:200px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+}
+.footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
